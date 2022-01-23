@@ -10,7 +10,7 @@ package cen4802;
 
 	}
 	/**
-	 * Calculates the desired term (n) in the Fibonacci sequence
+	 * Calculates the desired term (n) in the Fibonacci sequence.
 	 * 
 	 * @author Tristan Wood
 	 * @param int The integer correlated to the desired term in the sequence.
