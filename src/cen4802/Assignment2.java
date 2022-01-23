@@ -1,6 +1,6 @@
 package cen4802;
 
-public class Assignment2 {
+ public class Assignment2 {
 
 	public static void main(String[] args) {
 		
@@ -9,8 +9,16 @@ public class Assignment2 {
 		System.out.println("The " + input + "th term in the Fibonacci Sequence is: " + output);
 
 	}
-	
-	static int calculateFib(int n) {
+	/**
+	 * Calculates the desired term (n) in the Fibonacci sequence
+	 * 
+	 * @author Tristan Wood
+	 * @param int The integer correlated to the desired term in the sequence.
+	 * @return int The corresponding number in the sequence with the term that was inputed
+	 *
+	 */
+
+	public static int calculateFib(int n) {
 			
 		if(n <= 1)
 			return n;
